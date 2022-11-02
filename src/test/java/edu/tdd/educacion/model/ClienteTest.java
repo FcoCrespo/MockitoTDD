@@ -63,8 +63,10 @@ public class ClienteTest {
 			
 			this.barDAO.save(bar);
 			
-			if (i<3)
+			//NO LLEGA A INSERTAR NADA?? DEBUG
+			if (i<3) {
 				this.saveProductos(menu, i+1);
+			}
 		}
 	}
     
@@ -116,7 +118,8 @@ public class ClienteTest {
 		}
 	}
 	
-	@Test @Order(2)
+	@Test 
+	@Order(2)
 	public void testOctavio() {
 		try {
 			Menu menu = barService.getMenu("2");
