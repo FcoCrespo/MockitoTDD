@@ -1,7 +1,6 @@
 package edu.tdd.educacion.model;
 
 import org.json.JSONObject;
-import io.github.benas.randombeans.api.Randomizer;
 import io.github.benas.randombeans.randomizers.text.StringRandomizer;
 
 public class RandomUser extends User {
